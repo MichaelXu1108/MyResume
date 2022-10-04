@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<!-- upto 2 directory depth-->
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MichaelXu_MyResume</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" media="print" onload="this.media='all'"/>
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap"/>
+    </noscript>
+    <link href="./css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="./css/bootstrap-icons/bootstrap-icons.css?ver=1.2.0" rel="stylesheet">
+    <link href="./css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="./css/aos.css?ver=1.2.0" rel="stylesheet">
+    <link href="./css/main.css?ver=1.2.0" rel="stylesheet">
+    
+    <script>
+      var dob = new Date("11/08/1996");
+      //calculate month difference from current date in time
+      var month_diff = Date.now() - dob.getTime();
+      
+      //convert the calculated difference in date format
+      var age_dt = new Date(month_diff); 
+      
+      //extract year from date    
+      var year = age_dt.getUTCFullYear();
+      
+      //now calculate the age of the user
+      var age = Math.abs(year - 1970);
+      
+      //display the calculated age
+      //document.write("Age of the date entered: " + age + " years");
+    </script>
+
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body id="top">
+    <header class="bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header-nav" role="navigation">
+        <div class="container"><a class="link-dark navbar-brand site-title mb-0" href="#">MichaelXu</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-2">
+              <li class="nav-item"><a class="nav-link" href="#about">關於我</a></li>
+              <li class="nav-item"><a class="nav-link" href="#testimonials">自我學習課程</a></li>
+              <li class="nav-item"><a class="nav-link" href="#AwardRecord">得獎紀錄</a></li>
+              <li class="nav-item"><a class="nav-link" href="#services">我的服務</a></li>
+              <li class="nav-item"><a class="nav-link" href="#skills">我的專長</a></li>
+              <li class="nav-item"><a class="nav-link" href="#portfolio">作品集</a></li>
+              <li class="nav-item"><a class="nav-link" href="#experience">專案成就 / 得獎紀錄</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">聯絡我</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="page-content">
+      <div id="content">
+<header>
+  <div class="cover bg-light">
+    <div class="container px-3">
+      <div class="row">
+        <div class="col-lg-6 p-2"><img class="img-fluid" src="images/illustrations/hello3.svg" alt="hello"/></div>
+        <div class="col-lg-6">
+          <div class="mt-5">
+            <p class="lead text-uppercase mb-1">哈囉!Hello!</p>
+            <h1 class="intro-title marker" data-aos="fade-left" data-aos-delay="50">我叫做 許冠文(Michale Xu)</h1>
+            <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100">我是一名 IT工程師也是健身教練，這是我的個人履歷網頁.</p>
+            <div class="social-nav" data-aos="fade-up" data-aos-delay="200">
+              <nav role="navigation">
+                <ul class="nav justify-content-left">
+                  <li class="nav-item"><a class="nav-link" href="https://pda.104.com.tw/profile/share/gu8Sp4G7givWwuimitoyC9AUWon48PSk" title="104Resume"><i class="fa fa-user"></i><span class="menu-title sr-only">104Resume</span></a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/guan-wen-xu-b55272207/" title="LinkedIn"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">LinkedIn</span></a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/11xumichael/" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="mt-3" data-aos="fade-up" data-aos-delay="200"><a class="btn btn-primary shadow-sm mt-1 hover-effect" href="#contact">來聯絡我 <i class="fas fa-arrow-right"></i></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wave-bg"></div>
+</header>
+<div class="section pt-4 px-3 px-lg-4" id="about">
+  <div class="container-narrow">
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="h4 my-2">關於我 - About me</h2>
+        <p>I am passionate about UI/UX design and Web Design. I am a skilled front-end developer and master of graphic design tools such as Photoshop and Sketch. I am a quick learner and a team worker that gets the job done. I can easily capitalize on low hanging fruits and quickly maximize timely deliverables for real-time schemas.</p>
+        <div class="row mt-3">
+          <div class="col-sm-2">
+            <div class="pb-1">姓名:</div>
+          </div>
+          <div class="col-sm-10">
+            <div class="pb-1 fw-bolder">許冠文(Xu Guan Wen)</div>
+          </div>
+          <div class="col-sm-2">
+            <div class="pb-1">年齡:</div>
+          </div>
+          <div class="col-sm-10">
+            <div class="pb-1 fw-bolder"><script>document.write( age + " 歲");</script></div>
+          </div>
+          <div class="col-sm-2">
+            <div class="pb-1">學歷:</div>
+          </div>
+          <div class="col-sm-10">
+            <div class="pb-1 fw-bolder">文化大學 數位媒體設計系</div>
+          </div>
+          <div class="col-sm-2">
+            <div class="pb-1">服役:</div>
+          </div>
+          <div class="col-sm-10">
+            <div class="pb-1 fw-bolder">役畢(2020/3)</div>
+          </div>
+          <div class="col-sm-2">
+            <div class="pb-1">手機:</div>
+          </div>
+          <div class="col-sm-10">
+            <div class="pb-1 fw-bolder">0976-758-287</div>
+          </div>
+          <div class="col-sm-2">
+            <div class="pb-1">Email:</div>
+          </div>
+          <div class="col-sm-10">
+            <div class="pb-1 fw-bolder">yjo494512@gmail.com</div>
+          </div>
+          <div class="col-sm-2">
+            <div class="pb-1">地址:</div>
+          </div>
+          <div class="col-sm-10">
+            <div class="pb-1 fw-bolder">新北市三重區成功路***</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 offset-md-1" data-aos="fade-left" data-aos-delay="100"><img class="avatar img-fluid mt-2" src="/Users/xuguanwen/MEGAsync/物聯網課程相關/HTML履歷/super-folio_free_1-2-0 2/images/Photos.jpg"/></div>
+    </div>
+  </div>
+</div>
+<div class="section px-3 px-lg-4 pt-5" id="testimonials">
+  <div class="container-narrow">
+    <div class="text-center mb-5">
+      <h2 class="marker marker-center">自我學習課程 - My StudyCourse</h2>
+    </div>
+    <div class="row"> 
+      <div class="col-md-6 mb-5" data-aos="fade-right" data-aos-delay="100">
+        <div class="d-flex ms-md-3"><span><i class="fas fa-2x fa-quote-left"></i></span><span class="m-2">Walter displays exemplary professionalism and is able to take on challenges. He learns quickly and is an asset to any team.</span></div>
+        <div class="d-flex justify-content-end align-items-end">
+          <div class="text-end me-2">
+            <div class="fw-bolder">Aiyana</div>
+            <div class="text-small">CEO / Web Design Company</div>
+          </div><img class="me-md-3 rounded" src="images/testimonials/client1.jpg" width="96" height="96" alt="client 1"/>
+        </div>
+      </div>
+      <div class="col-md-6 mb-5" data-aos="fade-left" data-aos-delay="300">
+        <div class="d-flex ms-md-3"><span><i class="fas fa-2x fa-quote-left"></i></span><span class="m-2">Walter displays exemplary professionalism and is able to take on challenges. He learns quickly and is an asset to any team.</span></div>
+        <div class="d-flex justify-content-end align-items-end">
+          <div class="text-end me-2">
+            <div class="fw-bolder">Alexander</div>
+            <div class="text-small">CEO / Web Design Company</div>
+          </div><img class="me-md-3 rounded" src="images/testimonials/client2.jpg" width="96" height="96" alt="client 1"/>
+        </div>
+      </div>
+      <div class="col-md-6 mb-5" data-aos="fade-right" data-aos-delay="200">
+        <div class="d-flex ms-md-3"><span><i class="fas fa-2x fa-quote-left"></i></span><span class="m-2">Walter is a great co-worker and problem solver. He is quick to extend his helping hand and makes a good team player.</span></div>
+        <div class="d-flex justify-content-end align-items-end">
+          <div class="text-end me-2">
+            <div class="fw-bolder">Ariya</div>
+            <div class="text-small">Web Developer</div>
+          </div><img class="me-md-3 rounded" src="images/testimonials/client3.jpg" width="96" height="96" alt="client 1"/>
+        </div>
+      </div>
+      <div class="col-md-6 mb-5" data-aos="fade-left" data-aos-delay="400">
+        <div class="d-flex ms-md-3"><span><i class="fas fa-2x fa-quote-left"></i></span><span class="m-2">Walter is a great co-worker and problem solver. He is quick to extend his helping hand and makes a good team player.</span></div>
+        <div class="d-flex justify-content-end align-items-end">
+          <div class="text-end me-2">
+            <div class="fw-bolder">Braiden</div>
+            <div class="text-small">Web Designer</div>
+          </div><img class="me-md-3 rounded" src="images/testimonials/client4.jpg" width="96" height="96" alt="client 1"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section px-3 px-lg-4 pt-5" id="AwardRecord">
+  <div class="container-narrow">
+    <div class="text-center mb-5">
+      <h2 class="marker marker-center">得獎紀錄 - Award Record</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card mb-3" data-aos="fade-right" data-aos-delay="100">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h3 class="h5 mb-1">UI/UX Design</h3>
+                <div class="text-muted text-small">Designerr Inc. <small>(2012-2014)</small></div>
+              </div><img src="images/services/ui-ux.svg" width="48" height="48" alt="ui-ux"/>
+            </div>
+          </div>
+          <div class="card-body px-3 py-2">
+            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+            <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3" data-aos="fade-left" data-aos-delay="300">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h3 class="h5 mb-1">App Development</h3>
+                <div class="text-muted text-small">MakeMyApp LLC. <small>(2015-2018)</small></div>
+              </div><img src="images/services/app-development.svg" width="48" height="48" alt="app development"/>
+            </div>
+          </div>
+          <div class="card-body px-3 py-2">
+            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+            <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3" data-aos="fade-right" data-aos-delay="200">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h3 class="h5 mb-1">Web Design</h3>
+                <div class="text-muted text-small">Webbie LLC. <small>(2018-2020)</small></div>
+              </div><img src="images/services/web-design.svg" width="48" height="48" alt="web design"/>
+            </div>
+          </div>
+          <div class="card-body px-3 py-2">
+            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+            <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3" data-aos="fade-left" data-aos-delay="400">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h3 class="h5 mb-1">Full Stack Development</h3>
+                <div class="text-muted text-small">Coder Inc. <small>(2020-2021)</small></div>
+              </div><img src="images/services/full-stack.svg" width="48" height="48" alt="full stack"/>
+            </div>
+          </div>
+          <div class="card-body px-3 py-2">
+            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+            <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section px-3 px-lg-4 pt-5" id="services">
+  <div class="container-narrow">
+    <div class="text-center mb-5">
+      <h2 class="marker marker-center">我的服務 - My services</h2>
+    </div>
+    <div class="text-center">
+      <p class="mx-auto mb-3" style="max-width:600px"> 提供有關「App應用程式開發及大數據分析」、「多媒體設計(圖、影)及網頁開發」、「運動健康瘦身及備賽」的服務。</p>
+    </div>
+    <div class="row py-3">
+      <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="100"><img class="mb-2" src="images/services/web-design.svg" width="96" height="96" alt="web design"/>
+        <div class="h5">大數據分析</div>
+      </div>
+      <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="400"><img class="mb-2" src="images/services/app-development.svg" width="96" height="96" alt="app development"/>
+        <div class="h5">App應用程式開發</div>
+      </div>
+      <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="200"><img class="mb-2" src="images/services/graphic-design.svg" width="96" height="96" alt="graphic design"/>
+        <div class="h5">多媒體設計(圖、影)</div>
+      </div>
+      <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="300"><img class="mb-2" src="images/services/ui-ux.svg" width="96" height="96" alt="ui-ux"/>
+        <div class="h5">私人教練(健康、瘦身)</div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="section px-3 px-lg-4 pt-5" id="skills">
+  <div class="container-narrow">
+    <div class="text-center mb-5">
+      <h2 class="marker marker-center">我的專長 - My expertise</h2>
+    </div>
+    <div class="text-center">
+      <p class="mx-auto mb-3" style="max-width:600px">我是一名多方學習者，專注於程式App開發及網頁開發。</p>
+    </div>
+    <div class="bg-light p-3">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="py-1">
+            <div class="d-flex text-small fw-bolder"><span class="me-auto">Python</span><span>90%</span></div>
+            <div class="progress my-1">
+              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="py-1">
+            <div class="d-flex text-small fw-bolder"><span class="me-auto">C++</span><span>90%</span></div>
+            <div class="progress my-1">
+              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="200" data-aos-anchor=".skills-section" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="py-1">
+            <div class="d-flex text-small fw-bolder"><span class="me-auto">Web Development(HTML\CSS\JavaScript)</span><span>80%</span></div>
+            <div class="progress my-1">
+              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="py-1">
+            <div class="d-flex text-small fw-bolder"><span class="me-auto">Swift</span><span>75%</span></div>
+            <div class="progress my-1">
+              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-5 offset-md-2">
+          <div class="py-1">
+            <div class="d-flex text-small fw-bolder"><span class="me-auto">Pandas</span><span>70%</span></div>
+            <div class="progress my-1">
+              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="py-1">
+            <div class="d-flex text-small fw-bolder"><span class="me-auto">WordPress</span><span>70%</span></div>
+            <div class="progress my-1">
+              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" data-aos-anchor=".skills-section" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="py-1">
+            <div class="d-flex text-small fw-bolder"><span class="me-auto">MySQL</span><span>60%</span></div>
+            <div class="progress my-1">
+              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="py-1">
+            <div class="d-flex text-small fw-bolder"><span class="me-auto">PHP</span><span>60%</span></div>
+            <div class="progress my-1">
+              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="section px-3 px-lg-4 pt-5" id="skills">
+  <div class="container-narrow">
+    <div class="text-center">
+      <p class="mx-auto mb-3" style="max-width:600px">額外專長技能；主要運動教練專研，多媒體設計為曾經學習的技能。</p>
+    </div>
+    <div class="bg-light p-3">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="py-1">
+            <div class="d-flex text-small fw-bolder"><span class="me-auto">ACE - Certified Personal Trainer</span><span>95%</span></div>
+            <div class="progress my-1">
+              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          </div>
+
+        <div class="col-md-5 offset-md-2">
+          <div class="py-1">
+            <div class="d-flex text-small fw-bolder"><span class="me-auto">Multi-media Design(Ps、Ai、Pr)</span><span>85%</span></div>
+            <div class="progress my-1">
+              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="section px-2 px-lg-4 pt-5" id="portfolio">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="marker marker-center">作品集 - Portfolio </h2>
+    </div>
+    <div class="grid bp-gallery pb-3" data-aos="zoom-in-up" data-aos-delay="100">
+      <div class="grid-sizer"></div>
+      <div class="grid-item"><a href="https://dribbble.com">
+          <figure class="portfolio-item"><img src="images/portfolio/1-small.png" data-bp="images/portfolio/1.jpg"/>
+            <figcaption>
+              <h4 class="h5 mb-0">Web Design</h4>
+              <div>Dribbble.com</div>
+            </figcaption>
+          </figure></a></div>
+      <div class="grid-item"><a href="https://github.com">
+          <figure class="portfolio-item"><img src="images/portfolio/2-small.png" data-bp="images/portfolio/2.jpg" data-caption="Example of an optional caption."/>
+            <figcaption> 
+              <h4 class="h5 mb-0">Web Development</h4>
+              <div>GitHub.com</div>
+            </figcaption>
+          </figure></a></div>
+      <div class="grid-item"><a href="https://soundcloud.com/">
+          <figure class="portfolio-item"><img src="images/portfolio/3-small.png" data-bp="images/portfolio/3.jpg" data-caption="Example of an optional caption."/>
+            <figcaption> 
+              <h4 class="h5 mb-0">Audio Mixing</h4>
+              <div>Soundcloud.com</div>
+            </figcaption>
+          </figure></a></div>
+      <div class="grid-item"><a href="https://www.adobe.com/">
+          <figure class="portfolio-item"><img src="images/portfolio/4-small.png" data-bp="images/portfolio/4.jpg"/>
+            <figcaption>
+              <h4 class="h5 mb-0">Video Editing</h4>
+              <div>Adobe After Effects</div>
+            </figcaption>
+          </figure></a></div>
+      <div class="grid-item"><a href="https://www.adobe.com/">
+          <figure class="portfolio-item"><img src="images/portfolio/5-small.png" data-bp="images/portfolio/5.jpg"/>
+            <figcaption>
+              <h4 class="h5 mb-0">Photography</h4>
+              <div>Adobe Photoshop</div>
+            </figcaption>
+          </figure></a></div>
+      <div class="grid-item"><a href="https://www.android.com/">
+          <figure class="portfolio-item"><img src="images/portfolio/6-small.png" data-bp="images/portfolio/6.jpg"/>
+            <figcaption>
+              <h4 class="h5 mb-0">App Development</h4>
+              <div>Android</div>
+            </figcaption>
+          </figure></a></div>
+      <div class="grid-item"><a href="https://flutter.dev/">
+          <figure class="portfolio-item"><img src="images/portfolio/7-small.png" data-bp="images/portfolio/7.jpg"/>
+            <figcaption>
+              <h4 class="h5 mb-0">App Design</h4>
+              <div>Flutter</div>
+            </figcaption>
+          </figure></a></div>
+      <div class="grid-item"><a href="https://flutter.dev/">
+          <figure class="portfolio-item"><img src="images/portfolio/8-small.png" data-bp="images/portfolio/8.jpg"/>
+            <figcaption>
+              <h4 class="h5 mb-0">App Development</h4>
+              <div>Flutter</div>
+            </figcaption>
+          </figure></a></div>
+    </div>
+  </div>
+</div>
+<div class="section px-3 px-lg-4 pt-5" id="experience">
+  <div class="container-narrow">
+    <div class="text-center mb-5">
+      <h2 class="marker marker-center">專案成就 / 得獎紀錄 - Project / Award Record</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card mb-3" data-aos="fade-right" data-aos-delay="100">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h3 class="h5 mb-1">UI/UX Design</h3>
+                <div class="text-muted text-small">Designerr Inc. <small>(2012-2014)</small></div>
+              </div><img src="images/services/ui-ux.svg" width="48" height="48" alt="ui-ux"/>
+            </div>
+          </div>
+          <div class="card-body px-3 py-2">
+            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+            <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3" data-aos="fade-left" data-aos-delay="300">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h3 class="h5 mb-1">App Development</h3>
+                <div class="text-muted text-small">MakeMyApp LLC. <small>(2015-2018)</small></div>
+              </div><img src="images/services/app-development.svg" width="48" height="48" alt="app development"/>
+            </div>
+          </div>
+          <div class="card-body px-3 py-2">
+            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+            <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3" data-aos="fade-right" data-aos-delay="200">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h3 class="h5 mb-1">Web Design</h3>
+                <div class="text-muted text-small">Webbie LLC. <small>(2018-2020)</small></div>
+              </div><img src="images/services/web-design.svg" width="48" height="48" alt="web design"/>
+            </div>
+          </div>
+          <div class="card-body px-3 py-2">
+            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+            <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3" data-aos="fade-left" data-aos-delay="400">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h3 class="h5 mb-1">Full Stack Development</h3>
+                <div class="text-muted text-small">Coder Inc. <small>(2020-2021)</small></div>
+              </div><img src="images/services/full-stack.svg" width="48" height="48" alt="full stack"/>
+            </div>
+          </div>
+          <div class="card-body px-3 py-2">
+            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+            <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section px-2 px-lg-4 pb-4 pt-5 mb-5" id="contact">
+  <div class="container-narrow">
+    <div class="text-center mb-5">
+      <h2 class="marker marker-center">聯絡我 - Contact Me</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-6" data-aos="zoom-in" data-aos-delay="100">
+        <div class="bg-light my-2 p-3 pt-2"><form action="https://formspree.io/your@email.com"
+    method="POST">
+    <div class="form-group my-2">
+      <label for="name" class="form-label fw-bolder">您的名稱</label>
+      <input class="form-control" type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group my-2">
+      <label for="email" class="form-label fw-bolder">您的Email@</label>
+      <input class="form-control" type="email" id="email" name="_replyto" required>
+    </div>
+  <div class="form-group my-2">
+    <label for="message" class="form-label fw-bolder">您的內容</label>
+    <textarea class="form-control" style="resize: none;" id="message" name="message" rows="4" required></textarea>
+  </div>
+  <button class="btn btn-primary mt-2" type="submit">傳送</button>
+</form>
+        </div>
+      </div>
+      <div class="col-md-6" data-aos="fade-left" data-aos-delay="300">
+        <div class="mt-3 px-1">
+          <div class="h5">來說說看我有什麼能幫助到您的？</div>
+          <p>如果您需要我的服務，請使用旁邊聯繫表留言給我。 </p>
+          <p>或是也可以聯絡我的手機或Email聯繫我。</p>
+          <p>期待與您的合作！</p>
+          <p>Phone：0976-758-287</p>
+          <p>Email：yjo494512@gmail.com</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="pt-4 pb-4 text-center bg-light">
+  <div class="container">
+    <div class="my-3">
+      <div class="h4">Michael Xu</div>
+      <p>IT Developer</p>
+      <div class="social-nav">
+        <nav role="navigation">
+          <ul class="nav justify-content-center">
+            <li class="nav-item"><a class="nav-link" href="https://pda.104.com.tw/profile/share/gu8Sp4G7givWwuimitoyC9AUWon48PSk" title="104Resume"><i class="fa fa-user"></i><span class="menu-title sr-only">104Resume</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/guan-wen-xu-b55272207/" title="LinkedIn"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">LinkedIn</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/11xumichael/" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="text-small text-secondary">
+      <div class="mb-1">&copy; Michael Xu. All rights reserved.</div>
+  </div>
+</footer></div>
+    </div>
+    <div id="scrolltop"><a class="btn btn-secondary" href="#top"><span class="icon"><i class="fas fa-angle-up fa-x"></i></span></a></div>
+    <script src="./scripts/imagesloaded.pkgd.min.js?ver=1.2.0"></script>
+    <script src="./scripts/masonry.pkgd.min.js?ver=1.2.0"></script>
+    <script src="./scripts/BigPicture.min.js?ver=1.2.0"></script>
+    <script src="./scripts/purecounter.min.js?ver=1.2.0"></script>
+    <script src="./scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
+    <script src="./scripts/aos.min.js?ver=1.2.0"></script>
+    <script src="./scripts/main.js?ver=1.2.0"></script>
+  </body>
+</html>
