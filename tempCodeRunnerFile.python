@@ -1,0 +1,12 @@
+#@title ### 1. 下载 Novel AI API 后端、模型 
+#@markdown 如果下载速度太慢可尝试 restart
+
+%cd /content/
+!apt install -y -qq aria2
+!aria2c --summary-interval=5 -x 3 --allow-overwrite=true -Z \
+  https://pub-2fdef7a2969f43289c42ac5ae3412fd4.r2.dev/naifu.tar \
+  https://pub-2fdef7a2969f43289c42ac5ae3412fd4.r2.dev/animefull-latest.tar 
+  
+!echo "Decompressing..."
+!tar xf naifu.tar && rm naifu.tar
+!echo "Done."
